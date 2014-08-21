@@ -156,7 +156,7 @@ func (b *Builder) setup() error {
 		// talk to the docker team about this, since copying
 		// the entire repository is slow :(
 		//
-		// see https://github.com/dotcloud/docker/pull/3567
+		// see https://github.com/docker/docker/pull/3567
 
 		//src := filepath.Join(dir, "src")
 		//err = os.Symlink(b.Repo.Path, src)

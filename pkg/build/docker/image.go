@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/dotcloud/docker/archive"
-	"github.com/dotcloud/docker/utils"
+	"github.com/docker/docker/archive"
+	"github.com/docker/docker/utils"
 )
 
 type Images struct {

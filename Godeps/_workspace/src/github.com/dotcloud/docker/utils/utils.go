@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/dotcloud/docker/dockerversion"
+	"github.com/docker/docker/dockerversion"
 	"index/suffixarray"
 	"io"
 	"io/ioutil"

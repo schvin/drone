@@ -16,12 +16,12 @@ ADD . /gocode/src/github.com/drone/drone
 
 WORKDIR /gocode/src/github.com/drone/drone
 
-RUN make deps
-RUN make
-RUN make install
+#RUN make deps
+#RUN make
+#RUN make install
+#
+#EXPOSE 80
 
-EXPOSE 80
+#ENTRYPOINT ["/usr/local/bin/droned"]
 
-ENTRYPOINT ["/usr/local/bin/droned"]
-
-CMD ["--port=:80", "--datasource=/var/lib/drone/drone.sqlite"]
+#CMD ["--port=:80", "--datasource=/var/lib/drone/drone.sqlite"]
